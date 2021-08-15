@@ -17,10 +17,10 @@
 </script>
 
 <div class="px-4 py-4">
-	<h1>RxJS Utils</h1>
+	<h1 class="text-2xl text-red-600">RxJS Utils Fetch Pokemon API</h1>
 	<div class="flex flex-wrap">
 		{#each results as poke}
-			<div class="flex-1 p-4 bg-white m-2">
+			<div class="flex-1 p-4 bg-white m-2 rounded">
 				<a href={pokeImage(poke.name)} target="_blank">
 					<LazyImage src={pokeImage(poke.name)} alt={poke.name} />
 					{poke.name}

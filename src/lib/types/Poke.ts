@@ -2,7 +2,7 @@ export interface POKE_API {
     count: number;
     next: string;
     previous: string | null;
-    results: POKE_API[];
+    results: POKE_RESULT[];
 }
 
 export interface POKE_RESULT {
